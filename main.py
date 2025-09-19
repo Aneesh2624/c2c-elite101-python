@@ -11,7 +11,7 @@ def show_menu():
     print("\nHow can I help you?")
     print("1. Learn about this program")
     print("2. Get a study tip")
-    print("3. Just chat")
+    print("3. Chat")
     print("4. Exit")
 
 def main():
@@ -26,13 +26,13 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == "1":
-            print("This program helps you practice coding and learn tools for internships.")
+            print("This program helps you practice coding.")
         elif choice == "2":
-            print("Study tip: Practice a little bit every day, not all at once.")
+            print("Study tip: Practice Everyday")
         elif choice == "3":
-            print("I'm glad we are talking. Keep learning.")
+            print("How is your day going?.")
         elif choice == "4":
-            print("Goodbye.")
+            print("Program ended.")
             break
         else:
             print("Please enter a number from 1 to 4.")
